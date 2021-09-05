@@ -22,7 +22,17 @@ class CreateNewAccount extends StatelessWidget {
             children: [
               Column(
                 children: [
-                  SizedBox(height: size.width * 0.2),
+                  Center(
+                    child: Text(
+                      "Sign Up",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 30,
+                          fontFamily: "open sans semibold"),
+                      textAlign: TextAlign.justify,
+                    ),
+                  ),
+                  SizedBox(height: size.width * 0.1),
                   Container(
                     decoration: BoxDecoration(
                         gradient: LinearGradient(
